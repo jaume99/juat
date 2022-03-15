@@ -1,0 +1,10 @@
+cd C:\PC\GW10\PolicyCenter
+gwb studio
+
+cd C:\Program Files\Java
+java -jar DCEVM.jar
+
+localhost:8180/pc/PolicyCenter.do
+
+cd C:\PC\GW10\PolicyCenter\productdesigner\bin
+launchPD

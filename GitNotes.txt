@@ -1,0 +1,6 @@
+git config --global
+git init
+git status
+git add -A
+git rm --catched nombre
+

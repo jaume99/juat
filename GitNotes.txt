@@ -1,6 +1,8 @@
-git config --global
-git init
-git status
-git add -A
-git rm --catched nombre
+git config --global //configuracion global
+git init //iniciat Git en una carpeta
+git status //checar el estatus de una carpeta
+git add -A //agregar todo de una carpeta a git
+git rm --catched nombre //remover un elemento de git
+git commit -m "mensaje" //reconocer un commit con un mensaje 
+git log //consultar la lista de commits hechos en el repositorio
 

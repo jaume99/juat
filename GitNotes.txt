@@ -5,5 +5,15 @@ git add -A //agregar todo de una carpeta a git
 git rm --catched nombre //remover un elemento de git
 git commit -m "mensaje" //reconocer un commit con un mensaje 
 git log //consultar la lista de commits hechos en el repositorio
-git checkout codigo de commit a revisar // viaje a cualquier commit
+git checkout (codigo de commit) // viaje a cualquier commit
 
+//RESETS
+git reset --soft <id_commit> // Deja el commit, indicado en el comando, como último sin modificar el proyecto.
+git reset --hard <id_commit> // Deja el commit, indicado en el comando, como último modificando el proyecto con las características de dicho commit.
+
+//Branches
+git branch // ver las ramas de un proyecto
+git branch (nombre de la rama) // crear nueva rama
+git checkout (nombre de la rama) // movernos a una nueva rama
+git merge (nombre de la rama) // fusionar una rama creada con la master
+git branch (nombre de la rama) -d // eliminar una rama

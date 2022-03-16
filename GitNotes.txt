@@ -17,3 +17,9 @@ git branch (nombre de la rama) // crear nueva rama
 git checkout (nombre de la rama) // movernos a una nueva rama
 git merge (nombre de la rama) // fusionar una rama creada con la master
 git branch (nombre de la rama) -d // eliminar una rama
+
+//Clonar repos
+git clone <link_https> // clonar un repo a una carpeta especificada
+
+git remote add origin <link_https> //agregar repo desde git
+git push origin master // subir todo al repositorio de github
